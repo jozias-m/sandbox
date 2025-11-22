@@ -1,0 +1,30 @@
+/* Jozias Mijova (c) 2025 */
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  /* text-decoration: underline; */
+  text-decoration-color: #333333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.ad-left, .ad-right {
+  width: 20%;
+  background-color: #0f0f0f;
+  padding: 10px;
+  text-align: center;
+}
+.content {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #333333;
+}
