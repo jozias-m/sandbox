@@ -1,8 +1,4 @@
 
-    // Source - https://stackoverflow.com/a
-// Posted by Mihai, modified by community. See post 'Timeline' for change history
-// Retrieved 2025-11-23, License - CC BY-SA 4.0
-
 <?php
 // Script Online Users and Visitors - http://coursesweb.net/php-mysql/
 if(!isset($_SESSION)) session_start();        // start Session, if not already started
