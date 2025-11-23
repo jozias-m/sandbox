@@ -104,10 +104,13 @@ div {
 .altLinkFormat {
   color: var(--linkColorOne);
 }
+.noNewLine {
+  display: flex;
+}
 .toggleButton {
+  /* padding-left: 90%; */
   text-align: right;
   margin-left: 90%;
-  
 }
 .halfNewLine {
   margin: 0.5em;
