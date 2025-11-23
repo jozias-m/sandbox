@@ -6,7 +6,7 @@
   display: inline;
 }
 
-.lightMode {
+.darkMode {
   --textColor: #ffffff;
   --bgColor: #000000;
   --bgColorOne: #222222;
@@ -16,7 +16,7 @@
   --borderColor: #020202;
   --QdarkMode: 0;
 }
-.darkMode {
+.lightMode {
   --textColor: #000000;
   --bgColor: #ffffff;
   --bgColorOne: #dddddd;
