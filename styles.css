@@ -5,6 +5,9 @@
   padding: 0;
   display: inline;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 
 .darkMode {
   --textColor: #ffffff;
