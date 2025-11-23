@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  display: inline;
 }
 
 .lightMode {
@@ -12,16 +13,18 @@
   --bgColorTwo: #555555;
   --textDecColor: #dddddd;
   --linkColorOne: #8888dd;
-  --borderColor: #ffffff:
+  --borderColor: #020202;
+  --QdarkMode: 0;
 }
 .darkMode {
   --textColor: #000000;
   --bgColor: #ffffff;
-  --bgColorOne: #eeeeee;
+  --bgColorOne: #dddddd;
   --bgColorTwo: #bbbbbb;
   --textDecColor: #333333;
   --linkColorOne: #8888dd;
-  --borderColor: #ffffff:
+  --borderColor: #fdfdfd;
+  --QdarkMode: 1;
 }
 body {
   background-color: var(--bgColor);
@@ -84,8 +87,15 @@ h6 {
   margin-right: 0;
   font-weight: bold;
 }
+hr {
+  display: block;
+}
+div {
+  display: block;
+}
 .inlineNote {
   font-size: 0.5em;
+  display: block;
   padding: 0;
   margin-top: 0;
   text-decoration: underline;
@@ -107,7 +117,7 @@ h6 {
   justify-content: space-between;
   width: 100%;
   /* max-width: 1200px; */
-  max-width: 70%;
+  max-width: 97.55%;
   margin: 0 auto;
   margin-top: 0;
   padding: 20px;
