@@ -45,6 +45,3 @@ if (localStorage.getItem("ip") != "0.0.0.0" && localStorage.getItem("ip") != nul
 }else{
     getIP();
 }
-
-let expires = (new Date(Date.now()+ 300000000000000)).toUTCString();
-document.cookie = "ip=" + localStorage.getItem("ip") + "; expires=" + expires +"; path=/"
