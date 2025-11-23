@@ -12,15 +12,44 @@
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
 </head>
-<body>
+<body class="lightMode">
+    <header>
+        <div class="halfNewLine">
+            <div class="content">
+                <p>Header</p><button onclick="toggleDarkMode()" class="toggleButton">Toggle dark mode</button>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <div class="ad-left">
             <p>[ads]</p>
         </div>
         <div class="content">
-            <h1>Heading</h1>
+            <h1>Blocking AI on your laptop</h1>
+            <br><hr><hr>
+            <h2>DNS blocklist</h2>
+            <p class="inlineNote"><i>This methos only works for Windows</i></p>
+            <a href="./hostsx" download="hosts">DNS blocklist download</a>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, consequuntur culpa debitis, autem dolore corrupti nam minima eum distinctio assumenda nihil eius magnam ipsum dignissimos a obcaecati deserunt voluptas rem?
+                    After downloading the 'hosts' file, move it to "C:\Windows\System32\drivers\etc\". If you want/need to unblock a specific domain
+                you can open the file in
+            </p>
+            <br><hr>
+            <h2>Chrome Extension</h2>
+            <p class="inlineNote"><i>This method works for all chrome based browsers (e.g. Chrome, firefox, edge, brave, etc.)</i></p>
+            <a href="https://chromewebstore.google.com/detail/ai-block/bepbbcpgoljdlbihghneodnejodaeiih" target="_blank">Extension one</a>
+            <a href="https://chromewebstore.google.com/detail/is-generated-block-ai-con/chccpjfkgkgogeaaekpgoocmcekajgjk" target="_blank">Extension two</a>
+            <a href="https://chromewebstore.google.com/detail/aiblock-block-ai-images-a/mkmlbdghcbklnojegbkcdhfonmmopgdc" target="_blank">Extension three</a>
+            <a href="https://chromewebstore.google.com/detail/ai-content-shield-ai-dete/eoghcliblbhjimkgnfemelcpfdnmiceo" target="_blank">Extension four</a>
+            <p>Installing these four chrome extensions block most AI sections on most websites</p>
+            <br><hr>
+            <h2>Suggest your own method</h2>
+            <p>
+                    This website was made quickly and by one person. I'm not an expert on 'blocking AI', as such I don't know all the methods
+                that can be used to block AI. The methods listed on this site are the methods I personaly use. If you have your own method
+                please suggest it to me from one of these methods: <a href="mailto:jozias.mijova+blockAI@gmail.com" class="altLinkFormat">Email</a>,
+                <a href="https://t.me/jozias_m" class="altLinkFormat">Telegram</a>, <a href="http://discord.com/users/1402282462616489987" class="altLinkFormat">Discord</a>
+                or <a href="https://bsky.app/profile/jozias-m.bsky.social" class="altLinkFormat">Bluesky</a>
             </p>
         </div>
         <div class="ad-right">
@@ -28,10 +57,8 @@
         </div>
     </div>
     <footer>
-        <div class="container">
-            <div class="content">
-                <p>Footer</p>
-            </div>
+        <div class="content">
+            <p>Footer</p>
         </div>
     </footer>
 </body>
