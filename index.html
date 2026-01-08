@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe
+      id="playerID001"
+      src="https://www.vidking.net/embed/tv/0/0/0?color=000?autoPlay=true?nextEpisode=true?episodeSelector=true?progress=0" 
+      width="100%" 
+      height="600" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+
+    <form>
+        <label>Color: </label>
+        <!-- <input type="color" name="" id="hexColor"> -->
+        <input type="text" name="" id="hexColor">
+        <label>Autoplay</label>
+        <input type="checkbox" name="" id="QAutoPlay" checked>
+        <label>Next Episode</label>
+        <input type="checkbox" name="" id="QnextEp" checked>
+        <label>Episode select</label>
+        <input type="checkbox" name="" id="QepSelect" checked>
+        <hr>
+        <label>tmdbId</label>
+        <input type="number" id="tmdbId">
+        <label>season</label>
+        <input type="number" id="season">
+        <label>episode</label>
+        <input type="number" id="episode">
+        <hr>
+    </form>
+    <button type="button" onclick="setPlayback()">Set</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
