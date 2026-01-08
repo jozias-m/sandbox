@@ -11,7 +11,7 @@
 
     function setPlayback() {
         hexColor = "f88f8f";
-        QAutoPlay = document.getElementById("hexColor").checked;
+        QAutoPlay = document.getElementById("QAutoPlay").checked;
         QnextEp = document.getElementById("QnextEp").checked;
         QepSelect = document.getElementById("QepSelect").checked;
 
